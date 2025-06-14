@@ -34,5 +34,3 @@ Kullanım:
     print(words({'exactly': 5, 'wordsPerString': 2, 'formatter': lambda word, _: word.upper()}))  # Kesinlikle belirlediğiniz kadar (örn: 2) çıktı almanızı sağlar. Alınan çıktının yanında kaç adet çıktı olmasını (örn: 2) seçmenizi sağlar. Çıktıların tüm harflerini büyük harfle yazdırır.
 
     print(words({'exactly': 5, 'wordsPerString': 2, 'formatter': lambda word, index: word.capitalize() if index == 0 else word}))  # Kesinlikle belirlediğiniz kadar (örn: 2) çıktı almanızı sağlar. Alınan çıktının yanında kaç adet çıktı olmasını (örn: 2) seçmenizi sağlar. Çıktıların ilk harfini büyük yazdırır.
-
-Bu paket, [random-words](https://pypi.org/project/random-words) üzerinde değişiklikler yapılarak oluşturulmuştur.
